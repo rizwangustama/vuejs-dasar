@@ -14,7 +14,7 @@
             align-middle
           "
         >
-          1
+          {{ keranjang }}
         </p>
       </div>
     </div>
@@ -25,7 +25,7 @@
 export default {
   name: "HeaderComponent",
   props: {
-    jumlah: String,
+    keranjang: String,
   },
 };
 </script>
